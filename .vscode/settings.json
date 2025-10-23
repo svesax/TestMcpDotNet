@@ -1,7 +1,7 @@
 {
     "terminal.integrated.env.windows": {        
-        "AZURE_TENANT_ID": "b5dbcfb1-dd04-4e88-ae34-a86ee7a5a5a6",
-        "AZURE_CLIENT_ID": "be691585-8555-4df5-b94d-82dfca73b197",
+        "AZURE_TENANT_ID": "TBD",
+        "AZURE_CLIENT_ID": "TBD",
         "redirectUri": "http://localhost"
     },
     "appService.preDeployTask": "publish-release",
