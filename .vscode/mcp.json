@@ -1,0 +1,9 @@
+{
+  "servers": {
+    "SampleMcpServer": {
+      "type": "http",
+      "url": "http://localhost:5000"
+      //"url": "https://dedatestmcp.azurewebsites.net/mcp"
+    }
+  }
+}

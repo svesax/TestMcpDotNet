@@ -1,0 +1,10 @@
+{
+    "terminal.integrated.env.windows": {        
+        "AZURE_TENANT_ID": "b5dbcfb1-dd04-4e88-ae34-a86ee7a5a5a6",
+        "AZURE_CLIENT_ID": "be691585-8555-4df5-b94d-82dfca73b197",
+        "redirectUri": "http://localhost"
+    },
+    "appService.preDeployTask": "publish-release",
+    "appService.deploySubpath": "bin\\Release\\net9.0\\win-x64\\publish",
+    "appService.defaultWebAppToDeploy": "/subscriptions/7c4276cd-6ea4-4197-a614-42a81bee2c30/resourceGroups/rg-lab/providers/Microsoft.Web/sites/dedatestmcp"
+}

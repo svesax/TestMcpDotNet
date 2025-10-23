@@ -1,0 +1,30 @@
+.vscode\mcp.json serve al client VS per sapere i dettagli del server MCP (local o remoto)
+
+BUILD:
+
+Press Ctrl+Shift+P (or Cmd+Shift+P on Mac), type "Tasks: Run Task", and select:
+
+build - Builds the project in Debug configuration
+clean - Cleans the build outputs
+publish-release - Publishes the project in Release configuration (includes clean)
+
+RUN:
+
+-da lauch Debug MCP Server (fa build + run perchè esegue la dll)
+-da menù Run and debug
+
+
+********      MCP INSPECTOR  **********
+npx @modelcontextprotocol/inspector
+poi da browser fare connect
+
+http
+locale: http://localhost:5000
+via Proxy
+
+DEPLOY
+da icona Azure: Deploy web App
+questa prende il comando appService.preDeployTask (lancia la release con task publish-release)
+e poi fa deploy su azure
+
+se prendo bin\\Release\\net9.0\\win-x64\\publish\SampleMcpServer.exe e lo lancio ho il server http in localhost:5000
