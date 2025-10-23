@@ -69,9 +69,10 @@ public static class GraphAuthenticationHelper
     /// <returns>Configured GraphServiceClient or null if environment variables are not set</returns>
     public static GraphServiceClient? CreateFromEnvironment()
     {
-        var tenantId ="b5dbcfb1-dd04-4e88-ae34-a86ee7a5a5a6"; // Environment.GetEnvironmentVariable("AZURE_TENANT_ID");
-        var clientId = "be691585-8555-4df5-b94d-82dfca73b197"; // Environment.GetEnvironmentVariable("AZURE_CLIENT_ID");
-        var clientSecret = "JW~8Q~k3CM7Gb_1FwKTJ2f.zHY~JSihPXKf3TcNz"; // Environment.GetEnvironmentVariable("AZURE_CLIENT_SECRET");
+ 
+var tenantId = Environment.GetEnvironmentVariable("AZURE_TENANT_ID");
+var clientId = Environment.GetEnvironmentVariable("AZURE_CLIENT_ID");
+var clientSecret = Environment.GetEnvironmentVariable("AZURE_CLIENT_SECRET");
 
         if (string.IsNullOrEmpty(tenantId) || string.IsNullOrEmpty(clientId) || string.IsNullOrEmpty(clientSecret))
         {
