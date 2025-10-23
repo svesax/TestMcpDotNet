@@ -53,4 +53,9 @@ var app = builder.Build();
 app.MapMcp();
 //app.MapMcp("/mcp");
 
+app.UseRouting();
+
+// Optional: if you're using HTTPS redirection
+app.UseHttpsRedirection();
+
 await app.RunAsync();
