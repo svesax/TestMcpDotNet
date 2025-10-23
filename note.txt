@@ -28,3 +28,6 @@ questa prende il comando appService.preDeployTask (lancia la release con task pu
 e poi fa deploy su azure
 
 se prendo bin\\Release\\net9.0\\win-x64\\publish\SampleMcpServer.exe e lo lancio ho il server http in localhost:5000
+
+VAR
+check F1 workspace

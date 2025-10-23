@@ -1,9 +1,4 @@
 {
-    "terminal.integrated.env.windows": {        
-        "AZURE_TENANT_ID": "TBD",
-        "AZURE_CLIENT_ID": "TBD",
-        "redirectUri": "http://localhost"
-    },
     "appService.preDeployTask": "publish-release",
     "appService.deploySubpath": "bin\\Release\\net9.0\\win-x64\\publish",
     "appService.defaultWebAppToDeploy": "/subscriptions/7c4276cd-6ea4-4197-a614-42a81bee2c30/resourceGroups/rg-lab/providers/Microsoft.Web/sites/dedatestmcp"

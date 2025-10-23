@@ -21,6 +21,7 @@ builder.Services.Configure<KestrelServerOptions>(options =>
 */
 
 // Configure Azure AD app settings
+
 var tenantId = Environment.GetEnvironmentVariable("AZURE_TENANT_ID");
 var clientId = Environment.GetEnvironmentVariable("AZURE_CLIENT_ID");
 var redirectUri = Environment.GetEnvironmentVariable("redirectUri");
